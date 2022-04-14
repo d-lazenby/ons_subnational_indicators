@@ -1,0 +1,129 @@
+"Metric data sources, explanation and geographies",,,,,,,,,,,,,,,,,,
+As reviewed on 27/01/2022,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+Indicator,Shortened (name in jitter plot visualisation),Description,Levelling Up category,Are higher values represented positively or negatively in the jitter plot visualisation?,Measure,Feature in jitter plots?,Nations included,Source UK,Source GB,Source Eng,Source Wales,Source Scot,Source NI,UK source further details (27/01/2021),Subject matter date,Geography definition,District boundary date,
+Gross Value Added per hour worked,Gross Value Added per hour worked,Measure of business productivity (estimate of the volume of goods and services produced) in £ per hour worked,"Boosting productivity, pay, jobs and living standards",Positive,Pounds,Yes,GB,ONS,,,,,,"Download: Current edition of this data set (ladproductivity.xls)
+Tab: A3 (Smoothed nominal GVA(B) per hour worked)
+Column: 2019 [R]",2019,LA - District/UA,2021,
+Gross median weekly pay,Gross median weekly pay,"Average (median) weekly pay, based on where people live","Boosting productivity, pay, jobs and living standards",Positive,Pounds,Yes,UK,,ONS,,,,NISRA,"GB
+Download: 2021 provisional edition of this dataset
+File: PROV - Home Geography Table 8.1a Weekly Pay – Gross 2021.xls
+Tab: All 
+Column: median [D]
+
+NI
+Link: Under the 'Detailed Results' section, go to section 5: 'All tables in Open Document Spreadsheet (ODS) format'
+Download: 2021 tables
+File: ASHE-2021-work-lgd14.ods
+Tab: 1_Weekly_pay_gross
+Column: median [D]",2021 Provisional,LA - District/UA,2021,
+Employment rate for 16 to 64 year olds,Employment rate,Employment rate for 16-64 year olds,"Boosting productivity, pay, jobs and living standards",Positive,Percentage,Yes,UK,,ONS,,,,NISRA,"GB
+Download: Previous version, superseded 14 September 2021 (lmregtabli01april2021.xls)
+Tab: LI01
+Column: Employment, 16-64 Rate (%) [E]
+
+NI
+Download: Labour Market Status 2020
+File: Labour-market-status-2020_1.xlsx
+Tab: 1.1
+Table: 1.1d: Labour market structure by council area, aged 16 to 64, rate, 2020 
+Column: Employment rate, [Note 4], (%) [E]",2020,LA - District/UA,2021,
+Premises with gigabit capable broadband,Gigabit capable broadband,Percentage of premises with 125 megabytes (MB) or greater,"Boosting productivity, pay, jobs and living standards",Positive,Percentage,Yes,UK,OFCOM,,,,,,"Download: Fixed coverage local and unitary authority data
+File: 202105_fixed_laua_coverage_r01.csv
+Column: Gigabit availability (% of premises) [I]",May-21,LA - District/UA,2021,
+Average travel time to nearest employment centre with 500 to 4999 jobs available by public transport or walking,Public transport/ walk to employment centre with 500 to 4999 jobs,Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by public transport or walking,"Boosting productivity, pay, jobs and living standards",Negative,Minutes,Yes,England,,,DfT,,,,"Download: JTS0401: Travel time, destination and origin indicators for employment centres by mode of travel and local authority, England (ODS, 1.8 MB)
+Tab: 2019
+Column: Emp201 500EmpPTt [AO]
+Filter: exclude rows starting with ""E1"" from LA_Code column [B]",2019,LA - District/UA,2011,
+Average travel time to nearest employment centre with 500 to 4999 jobs available by cycle,Cycle to employment centre with 500 to 4999 jobs,Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by cycle,"Boosting productivity, pay, jobs and living standards",Negative,Minutes,Yes,England,,,DfT,,,,"Download: JTS0401: Travel time, destination and origin indicators for employment centres by mode of travel and local authority, England (ODS, 1.8 MB)
+Tab: 2019
+Column: Emp210 500EmpCyct [AX]
+Filter: exclude rows starting with ""E1"" from LA_Code column [B]",2019,LA - District/UA,2011,
+Average travel time to nearest employment centre with 500 to 4999 jobs available by car,Drive to employment centre with 500 to 4999 jobs,Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by car,"Boosting productivity, pay, jobs and living standards",Negative,Minutes,Yes,England,,,DfT,,,,"Download: JTS0401: Travel time, destination and origin indicators for employment centres by mode of travel and local authority, England (ODS, 1.8 MB)
+Tab: 2019
+Column: Emp219 500EmpCart [BG]
+Filter: exclude rows starting with ""E1"" from LA_Code column [B]",2019,LA - District/UA,2011,
+Female healthy life expectancy,Female healthy life expectancy,Average years expected to be lived in good health for females born in the last year,Spreading opportunity and improving public services,Positive,Years,Yes,UK,ONS,,,,,,"Download: Current edition of this data set (Hsleestimatesv2.xlsx)
+Tab: HE - Local area estimates 
+Column: Healthy life expectancy (HLE) [X]
+Filter: age group [T] <1
+Manual Processing: Period [P] and Sex [S]",2017-2019,LA - County/UA,2020,
+Male healthy life expectancy,Male healthy life expectancy,Average years expected to be lived in good health for males born in the last year,Spreading opportunity and improving public services,Positive,Years,Yes,UK,ONS,,,,,,"Download: Current edition of this data set (Hsleestimatesv2.xlsx)
+Tab: HE - Local area estimates 
+Column: Healthy life expectancy (HLE) [X]
+Filter: age group [T] <1
+Manual Processing: Period [P] and Sex [S]",2017-2019,LA - County/UA,2020,
+Adults that currently smoke cigarettes,Cigarette smokers,Percentage of adults (18+) people who state they currently smoke cigarettes (excluding e-cigarettes),Spreading opportunity and improving public services,Negative,Percentage,Yes,GB,,ONS,,,,,"Download: Quarter 2 (Apr to June) to Quarter 4 (Oct to Dec) 2020 edition of this dataset (smokinghabitstheukanditsconstituentcountries2020q24.xls)
+Tab: Table 4
+Column: Current smokers ‘%’ [F]
+Filter: Sex [A] = ‘Persons’",04/2020 - 12/2020,LA - District/UA,"2019 for England and Wales, 2018 for Scotland",
+Children (4 to 5 years old) overweight and obesity prevalence,Overweight children at reception age,Percentage of reception age children (4-5yrs) with BMI 25+ (overweight or obese),Spreading opportunity and improving public services,Negative,Percentage,Yes,England,,,OHID,,,,"Download: ""Topic: NCMP prevalence data"" Data for Lower tier local authorities (4/20-3/21)
+File: indicators-DistrictsUAs202021.data.csv
+Column: Value [M]
+Filters: Indicator Name = 'Reception: Prevalence of overweight (including obesity)', Sex = 'Persons', Time period = '2019/20', Area Type = 'Districts & UAs (2020/21)'",2019/20,LA - District/UA,2020,
+Adult (18+) overweight and obesity prevalence,Overweight adults,Percentage of adults (18+) with BMI 25+ (overweight or obese),Spreading opportunity and improving public services,Negative,Percentage,Yes,England,,,OHID,,,,"Download: ""Profile: Obesity Profile"" Data for Lower tier local authorities (4/21)
+File: indicators-DistrictsUAsfromApr2021.data.csv
+Column: Value [M]
+Filters: Indicator = 'Percentage of adults (aged 18+) classified as overweight or obese', Age = '18+ yrs', Sex = 'Persons', Time period = '2019/20', Area Type = 'Districts & UAs (2020/21)'",2019/20,LA - District/UA,2021,
+5 year olds achieving 'expected level' on communication early learning goals,Early years communication,Early years foundation stage profile attainment of 5 year olds. Percentage achieving 'expected' or 'exceeded' across all communication learning goals.,Spreading opportunity and improving public services,Positive,Percentage,Yes,England,,,DfE,,,,"Download: EYFSP 2019 Tables (EYFSP_2019_Tables.xlsx)
+Tab: Table 3a
+Column: 'Communication and Language' '% achieving at least expected across all learning goals in learning area' [G]",2019,LA - County/UA,2019,
+5 year olds achieving 'expected level' on literacy early learning goals,Early years literacy,Early years foundation stage profile attainment of 5 year olds. Percentage achieving at least 'expected' or 'exceeded' across all literacy learning goals.,Spreading opportunity and improving public services,Positive,Percentage,Yes,England,,,DfE,,,,"Download: EYFSP 2019 Tables (EYFSP_2019_Tables.xlsx)
+Tab: Table 3a
+Column: 'Literacy' '% achieving at least expected across all learning goals in learning area' [AT]",2019,LA - County/UA,2019,
+5 year olds achieving 'expected level' on maths early learning goals,Early years maths,Early years foundation stage profile attainment of 5 year olds. Percentage achieving at least 'expected' or 'exceeded' across all mathematics learning goals.,Spreading opportunity and improving public services,Positive,Percentage,Yes,England,,,DfE,,,,"Download: EYFSP 2019 Tables (EYFSP_2019_Tables.xlsx)
+Tab: Table 3a
+Column: 'Mathematics' '% achieving at least expected across all learning goals in learning area' [BD]",2019,LA - County/UA,2019,
+Young people achieving GCSEs (and equivalent qualifications) in English and Maths by age 19,GCSEs (and equivalent) in English and Maths by age 19,Percentage of young people achieving GCSEs (and equivalent qualifications) in English and Maths by age 19,Spreading opportunity and improving public services,Positive,Percentage,Yes,England,,,DfE,,,,"Download: Download All Data (level-2-and-3-attainment-by-young-people-aged-19_2019-20.zip)
+File: state_sector_lad_data_16_19_time_period_based_on_the_academic_year_the_young_person_turned_19.csv
+Column: L2_em [Z]
+Filters: time_period = 201920
+geography = Local authority district
+age = 19
+Qualification_level = Total
+characteristic_group = Total
+number_or_percentage = Percentage",2019-2020,LA - District/UA,2019,
+Schools and nurseries rated good or outstanding by OFSTED,Schools and nurseries rated good or outstanding,"Percentage of state funded Nursery, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated ‘Good’ or ‘Outstanding’ by OFSTED ",Spreading opportunity and improving public services,Positive,Percentage,Yes,England,,,OFSTED,,,,"Download: State-funded schools inspections and outcomes as at 31 August 2021 charts and tables
+Tab: T5_Most_recent_LA_Region
+Tables: 5a
+Columns: Sum together the ‘Outstanding%’ [I] and ‘Good%’ [J] columns
+Processing: Use the lookup codes for Combined Authorities and Counties to assign the data to codes.",09/2020 - 08/2021,LA - County/UA,2021,
+Number of starts on apprenticeships,Apprenticeships starts,Count of apprenticeships started by adults aged 16+ based on home address.,Spreading opportunity and improving public services,Positive,Courses started,No - only shown in the data table,England,,,DFE,,,,"Explore data and files
+Create tables
+Create your own table tab
+Geographical breakdowns – detailed (reported to date)
+Local Authority District -> select all 310 options
+Start date 2020/21 (same for end date)
+Starts and Achievements (completions)
+Choose ‘total’ ONLY for for all the category selections.
+Create table",2020/21,LA - District/UA,2021,
+Number of completions on apprenticeships,Apprenticeships completions,Count of apprenticeships achieved by adults aged 16+ based on home address.,Spreading opportunity and improving public services,Positive,Courses completed,No - only shown in the data table,England,,,DFE,,,,"Explore data and files
+Create tables
+Create your own table tab
+Geographical breakdowns – detailed (reported to date)
+Local Authority District -> select all 310 options
+Start date 2020/21 (same for end date)
+Starts and Achievements (completions)
+Choose ‘total’ ONLY for for all the category selections.
+Create table",2020/21,LA - District/UA,2021,
+4G coverage provided by at least one mobile network provider,4G coverage,Percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm),"Boosting productivity, pay, jobs and living standards",Positive,Percentage,No - only shown in the data table,UK,OFCOM,,,,,,"Download: Mobile coverage local and unitary authority data (202105_mobile_laua_r01.csv)
+Columns: Column [BT] (4G_geog_out_0)
+Processing: 100 minus Column [BT]",May-21,LA - District/UA,2021,
+Average life satisfaction rating,Life satisfaction,The average rating of those that feel satisfied about their lives.,Spreading opportunity and improving public services,Positive,Score 0 (not at all) - 10 (completely),Yes,UK,ONS  ,,,,,,"Download: April 2020 to March 2021 – Local authority update edition of this dataset (headlineestimatespersonalwellbeing2020to2021.xlsx)
+Tab: Life Satisfaction - Means
+Column: 2020/21 [M]
+Fliter: Geographical Designation [C] = 'Local Authority'",04/2020-03/2021,LA - District/UA,2019,
+Average feeling that things done in life are worthwhile rating,Feeling life is worthwhile,The average rating of those that feel the things they do in life are worthwhile.,Spreading opportunity and improving public services,Positive,Score 0 (not at all) - 10 (completely),Yes,UK,ONS  ,,,,,,"Download: April 2020 to March 2021 – Local authority update edition of this dataset (headlineestimatespersonalwellbeing2020to2021.xlsx)
+Tab: Worthwhile - Means
+Column: 2020/21 [M]
+Fliter: Geographical Designation [C] = 'Local Authority'",04/2020-03/2021,LA - District/UA,2019,
+Average happiness rating,Happiness,The average rating of those that felt happy yesterday.,Spreading opportunity and improving public services,Positive,Score 0 (not at all) - 10 (completely),Yes,UK,ONS  ,,,,,,"Download: April 2020 to March 2021 – Local authority update edition of this dataset (headlineestimatespersonalwellbeing2020to2021.xlsx)
+Tab: Happy - Means
+Column: 2020/21 [M]
+Fliter: Geographical Designation [C] = 'Local Authority'",04/2020-03/2021,LA - District/UA,2019,
+Average anxiety rating,Anxiety,The average rating of those that felt anxious yesterday.,Spreading opportunity and improving public services,Negative,Score 0 (not at all) - 10 (completely),Yes,UK,ONS  ,,,,,,"Download: April 2020 to March 2021 – Local authority update edition of this dataset (headlineestimatespersonalwellbeing2020to2021.xlsx)
+Tab: Anxiety - Means
+Column: 2020/21 [M]
+Fliter: Geographical Designation [C] = 'Local Authority'",04/2020-03/2021,LA - District/UA,2019,
+Net additions to the housing stock,New houses,"Absolute increase in dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions).","Restoring a sense of community, local pride and belonging",Positive,Number of dwellings,No - only shown in the data table,England,,,DLUHC,,,,"Download: Table 122: housing supply; net additional dwellings, by local authority district, England (Live_table_122.ods)
+Column: 2020-21 [AA]",2020-21,LA - District/UA,2020,
